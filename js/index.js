@@ -36,12 +36,14 @@ $(function () {
         var sTop=document.body.scrollTop+document.documentElement.scrollTop;
         // console.log(sTop)
         $('.Tbg').css('top',-sTop/3+'px');
-        if(sTop>=115){
+        if(sTop>=100){
+            $('header').addClass('headerfix')
             $('header .fl').css('background','url("../img/LOGO_02.png") center/cover no-repeat');
             $('header .fr>s').addClass('s')
         }else{
             $('header .fl').css('background','url("../img/LOGO.png") center/cover no-repeat');
             $('header .fr>s').removeClass('s')
+            $('header').removeClass('headerfix')
         }
         if(sTop<=110){
             // $('header').removeClass('headerfix1')

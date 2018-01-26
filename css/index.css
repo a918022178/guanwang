@@ -1,7 +1,9 @@
 body {
     color: #333333;
 }
-
+p{
+    font-weight: 300;
+}
 header {
     position: fixed;
     z-index: 5;
@@ -21,8 +23,8 @@ header {
 }
 
 .headerfix{
-    position: fixed;
-    top: -100px;
+    height: 80px;
+    padding: 24px 128px 0;
     background: rgba(255, 255, 255, .8);
     box-shadow: 0 5px 50px 0 rgba(0, 0, 0, .1);
 }
@@ -85,7 +87,7 @@ header section div {
     transition: all .4s;
     transform: translateY(-30px);
     position: absolute;
-    top: 75px;
+    top: 66px;
     width: 186px;
     height: 200px;
     background: #FFFFFF;
@@ -105,11 +107,11 @@ header section div i {
 }
 
 header section .qrCode1 {
-    left: -40px;
+    left: -44px;
 }
 
 header section .qrCode2 {
-    right: -40px;
+    right: -14px;
 }
 
 header section .qrCode1 i {
@@ -167,7 +169,7 @@ header section div p {
 }
 
 .Tbg>div p {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .Tbg>div p,
@@ -231,6 +233,7 @@ header section div p {
 .keeper .w>div section div p {
     font-size: 14px;
     margin-top: 20px;
+    line-height: 22px;
 }
 
 .scheme {
@@ -291,12 +294,12 @@ header section div p {
 
 .scheme .w>div section h4 {
     font-size: 26px;
-    margin: 20px 0;
+    margin: 12px 0 16px;
 }
 
 .scheme .w>div section p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 22px;
     text-align: left;
     padding-left: 40px;
 }
@@ -355,7 +358,7 @@ header section div p {
     margin-top: 70px;
     opacity: 0;
     transform: translateY(70px);
-    transition: all .4s .2s;
+    transition: all .8s .2s;
 }
 
 
@@ -662,4 +665,7 @@ footer .w4>.fr p img {
 
 .bottom a:hover {
     color: #00BC71;
+}
+.bottom span{
+    font-weight: 300;
 }
