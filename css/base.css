@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+html,body{
+    background:#f1f3ff !important;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color:transparent;
+    font-family: "PingFang SC","PingFang SC UltraLight",PingFangSC-Light, "Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei", "Source Han Sans CN",sans-serif;;
+    font-size: 17px;
+    color: #000;
+    /*overflow: hidden;*/
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+i,b,strong,em,s{
+    text-decoration: none;
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+}
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+.tac {
+	text-align: center;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.w{
+    width: 1170px;
+    margin: 0 auto;
+}
